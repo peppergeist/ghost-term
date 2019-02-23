@@ -1,11 +1,11 @@
-CC          := clang
+CC          := clang++
 TARGET      := ghost-term
 SRCDIR      := src
 INCDIR      := inc
 BUILDDIR    := obj
 TARGETDIR   := bin
 DATDIR      := dat
-SRCEXT      := c
+SRCEXT      := cpp
 DEPEXT      := d
 OBJEXT      := o
 CFLAGS      := -Wall -O3 -g
